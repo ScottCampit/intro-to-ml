@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 Then you need to install the jupyter notebook packages and add the virtual environment to the jupyter kernelspec.
 
 ```Python
-pip install --user ipkyernel
+pip install --user ipkyernel notebook
 python3 -m ipykernel install --user --name=venv
 ```
 
